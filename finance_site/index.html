@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Gastos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { margin-bottom: 16px; }
+    .row { margin-bottom: 8px; }
+    label { display: block; margin-bottom: 4px; }
+    input { padding: 4px; margin-right: 8px; }
+    button { padding: 4px 8px; }
+    #items { margin-top: 16px; }
+    #items li { margin-bottom: 4px; }
+    #suggestion { margin-top: 16px; padding: 8px; border: 1px solid #aaa; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Controle de Gastos</h1>
+
+  <div class="row">
+    <label for="desc">Descrição</label>
+    <input id="desc" type="text"/>
+  </div>
+
+  <div class="row">
+    <label for="amount">Valor</label>
+    <input id="amount" type="number"/>
+    <button id="add">Adicionar</button>
+  </div>
+
+  <div class="row">
+    <label for="goal">Meta de Gastos</label>
+    <input id="goal" type="number"/>
+  </div>
+
+  <ul id="items"></ul>
+
+  <div id="suggestion"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
