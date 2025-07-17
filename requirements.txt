@@ -1,0 +1,4 @@
+kivy
+sqlalchemy
+kivy_garden.matplotlib
+reportlab
